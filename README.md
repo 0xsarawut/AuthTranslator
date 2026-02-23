@@ -146,11 +146,6 @@ make docker     # build container
 Found a bug? Have an auth plug-in idea? Open an issue or PR – but please read [`CONTRIBUTING.md`](CONTRIBUTING.md) first.
 Security issues? Email **[security@authtranslator.dev](mailto:security@authtranslator.dev)** – see [`SECURITY.md`](SECURITY.md).
 
-##curl -X POST \
-https://api-m.sandbox.paypal.com/v2/checkout/orders/7WH94211LK834082R/capture \
-  -H 'Authorization: Bearer <Access-Token>' \
-  -H 'Content-Type: application/json' \
-  -H 'PayPal-Mock-Response: {"mock_application_codes": "DUPLICATE_INVOICE_ID"}'
 ---
 
 ## 📝 License
